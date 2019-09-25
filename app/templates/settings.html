@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block title %}{{ super() }} - Settings{% endblock %}
+
+{% block content %}
+
+<div class="jumbotron">
+        <div class="container">
+            <h1 class="display-3">Welcome to settings page!</h1>
+            <p>This access is only for authorized people.</p>
+            <p><a class="btn btn-primary btn-lg" href="/logout" role="button">Logout &raquo;</a></p>
+        </div>
+</div>
+{% endblock %}

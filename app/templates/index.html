@@ -1,0 +1,68 @@
+{% extends 'base.html' %}
+
+{% block title %}{{ super() }} - Index{% endblock %}
+
+{% block content %}
+<div class="jumbotron">
+    <div class="container">
+        <h1 class="display-3">Flask MVC</h1>
+        <p>This is a simple informational website developed with flask framework using Model-View-Controller.</p>
+        <p><a class="btn btn-primary btn-lg" href="https://palletsprojects.com/p/flask/" role="button">Learn more
+                &raquo;</a></p>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-4">
+            <h2>Flask Login</h2>
+            <p>Flask-Login provides user session management for Flask. It handles the common tasks of logging in,
+                logging out, and remembering your users’ sessions over extended periods of time. </p>
+            <p><a class="btn btn-secondary" href="https://flask-login.readthedocs.io/en/latest/" role="button">View
+                    details &raquo;</a></p>
+        </div>
+        <div class="col-md-4">
+            <h2>Flask Migrate</h2>
+            <p>Flask-Migrate is an extension that handles SQLAlchemy database migrations for Flask applications using
+                Alembic. The database operations are made available through the Flask command-line interface or through
+                the Flask-Script extension.</p>
+            <p><a class="btn btn-secondary" href="https://flask-migrate.readthedocs.io/en/latest/" role="button">View
+                    details &raquo;</a></p>
+        </div>
+        <div class="col-md-4">
+            <h2>Flask Script</h2>
+            <p>The Flask-Script extension provides support for writing external scripts in Flask. This includes running
+                a development server, a customised Python shell, scripts to set up your database, cronjobs, and other
+                command-line tasks that belong outside the web application itself.</p>
+            <p><a class="btn btn-secondary" href="https://flask-script.readthedocs.io/en/latest/" role="button">View
+                    details &raquo;</a></p>
+        </div>
+        <div class="col-md-4">
+            <h2>Flask SQLAlchemy</h2>
+            <p>Flask-SQLAlchemy is an extension for Flask that adds support for SQLAlchemy to your application. It aims
+                to simplify using SQLAlchemy with Flask by providing useful defaults and extra helpers that make it
+                easier to accomplish common tasks.</p>
+            <p><a class="btn btn-secondary" href="https://flask-sqlalchemy.palletsprojects.com/en/2.x/"
+                    role="button">View details &raquo;</a></p>
+        </div>
+        <div class="col-md-4">
+            <h2>Flask WTF</h2>
+            <p>Simple integration of Flask and WTForms, including CSRF, file upload, and reCAPTCHA.</p>
+            <p><a class="btn btn-secondary" href="https://flask-wtf.readthedocs.io/en/stable/" role="button">View
+                    details &raquo;</a></p>
+        </div>
+        <div class="col-md-4">
+            <h2>WTForms</h2>
+            <p>With WTForms, your form field HTML can be generated for you, but we let you customize it in your
+                templates. This allows you to maintain separation of code and presentation, and keep those messy
+                parameters out of your python code. Because we strive for loose coupling, you should be able to do that
+                in any templating engine you like, as well.</p>
+            <p><a class="btn btn-secondary" href="https://wtforms.readthedocs.io/en/stable/" role="button">View details
+                    &raquo;</a></p>
+        </div>
+    </div>
+
+    <hr>
+
+</div>
+{% endblock %}
